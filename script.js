@@ -41,7 +41,7 @@ function atualizaTela(opcao){
     }
     else{
         if(chances == 0){
-            texto.innerText = "Infelizmente voce zerou suas chances! ";
+            texto.innerText = "Infelizmente voce zerou suas chances!\nO numero era: " + numeroSorteado;
             botao.value = "Reiniciar";
         }
         else if(ganhou == true){
