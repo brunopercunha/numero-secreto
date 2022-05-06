@@ -1,0 +1,55 @@
+
+/*{
+    background-color: rgba(65, 7, 7, 0.253);
+}*/
+body{
+    background-color: #0e0d0d;
+    width: 100%;
+    height:100%;
+    background-image:url("D:/Treinando programador Br/Praticas Front-End/Numero Secreto/imagens/stranger_things.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+    margin: 8px;
+}
+
+.titulo{
+    color: rgb(161, 64, 7);
+    text-align: center;
+}
+
+.container{
+    width: 500px;
+    background-color: rgba(250, 244, 244, 0.719);
+    margin: auto;
+    margin-top:40vh;
+    border-radius: 20px;
+
+    
+}
+
+.campo-resposta{
+    margin:auto;
+    margin-top: 50px;
+    width:50%;
+    text-align: center;
+}
+
+.campo-de-numero{
+    width:90%;
+    border-radius: 5px;
+   
+}
+
+.botao{
+    display:inline-block;
+    width:80%;
+    margin-top: 10px;
+    border-radius: 10px;
+    background: #ffffff;
+    
+}
+
+p{
+    font-size:25px;
+}
